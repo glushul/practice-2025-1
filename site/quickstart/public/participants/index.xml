@@ -6,21 +6,21 @@
     <description>Recent content in Participants on Сайт металлообработки</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 05 May 2025 13:36:25 +0300</lastBuildDate>
+    <lastBuildDate>Mon, 05 May 2025 13:36:16 +0300</lastBuildDate>
     <atom:link href="http://localhost:1313/participants/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Person2</title>
-      <link>http://localhost:1313/participants/person2/</link>
-      <pubDate>Mon, 05 May 2025 13:36:25 +0300</pubDate>
-      <guid>http://localhost:1313/participants/person2/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Person1</title>
+      <title>Мамонова Ксения</title>
       <link>http://localhost:1313/participants/person1/</link>
       <pubDate>Mon, 05 May 2025 13:36:16 +0300</pubDate>
       <guid>http://localhost:1313/participants/person1/</guid>
       <description></description>
+    </item>
+    <item>
+      <title>Участники</title>
+      <link>http://localhost:1313/participants/_ndex/</link>
+      <pubDate>Mon, 05 May 2025 13:36:06 +0300</pubDate>
+      <guid>http://localhost:1313/participants/_ndex/</guid>
+      <description>&lt;h2 id=&#34;мамонова-ксения&#34;&gt;Мамонова Ксения&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Участвует в разработке дизайна сайта&lt;/li&gt;&#xA;&lt;li&gt;Отвечает за структуру пользовательского интерфейса и визуальную презентацию проекта&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;глущенко-ульяна&#34;&gt;Глущенко Ульяна&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Отвечает за исследование производственного оборудования и технологий металлообработки&lt;/li&gt;&#xA;&lt;li&gt;Участвует в планировании функционала бекэнда и логики платформы&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
   </channel>
 </rss>
