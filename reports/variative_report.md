@@ -83,4 +83,6 @@ object NFAEvaluator {
 }
 ```
 
+---
+[Видео-демонстрация работы движка](./variative_presentation.MOV)
 
