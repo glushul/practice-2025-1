@@ -30,13 +30,13 @@
 
 #### Структуры данных
 
-`scala
+``scala
 sealed trait RegexExpr
 case class Literal(c: Char) extends RegexExpr
 case class Or(expr1: RegexExpr, expr2: RegexExpr) extends RegexExpr
 case class Concat(first: RegexExpr, second: RegexExpr) extends RegexExpr
 case class Repeat(expr: RegexExpr) extends RegexExpr
-case class Plus(expr: RegexExpr) extends RegexExpr`
+case class Plus(expr: RegexExpr) extends RegexExpr``
 
 ### Этап 2: Построение недетерминированного конечного автомата (NFA)
 
@@ -55,11 +55,11 @@ NFA состоит из:
 
 Каждое регулярное выражение можно рекурсивно преобразовать в NFA. Для этого определим представление автомата:
 
-`scala
+``scala
 case class State(
   id: Int,
   var transitions: List[(Option[Char], State)] = List()
 )
 
-case class NFA(start: State, accept: State)`
+case class NFA(start: State, accept: State)``
 
