@@ -36,7 +36,8 @@ case class Literal(c: Char) extends RegexExpr
 case class Or(expr1: RegexExpr, expr2: RegexExpr) extends RegexExpr
 case class Concat(first: RegexExpr, second: RegexExpr) extends RegexExpr
 case class Repeat(expr: RegexExpr) extends RegexExpr
-case class Plus(expr: RegexExpr) extends RegexExpr```
+case class Plus(expr: RegexExpr) extends RegexExpr
+```
 
 ### Этап 2: Построение недетерминированного конечного автомата (NFA)
 
@@ -61,5 +62,31 @@ case class State(
   var transitions: List[(Option[Char], State)] = List()
 )
 
-case class NFA(start: State, accept: State)```
+case class NFA(start: State, accept: State)
+```
+
+### Этап 3: Оценка NFA
+
+Для проверки соответствия строки регулярному выражению используется следующий алгоритм:
+
+1. Начать с начального состояния NFA.
+2. Для каждого символа входной строки:
+   - Определить все возможные переходы без потребления символа (ε-переходы).
+   - Перейти в новые состояния, соответствующие текущему символу.
+3. Если после обработки всех символов достигнуто состояние совпадения, строка соответствует выражению.
+
+```scala
+object NFAEvaluator {
+  def evaluate(nfa: State, input: String): Boolean = {
+    def eval(states: Set[State], chars: List[Char]): Boolean = chars match {
+      case Nil => states.exists(_.isMatch)
+      case c :: cs =>
+        val nextStates = states.flatMap(_.transitions(c))
+        eval(nextStates, cs)
+    }
+    eval(Set(nfa), input.toList)
+  }
+}
+```
+
 
