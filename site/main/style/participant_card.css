@@ -1,0 +1,21 @@
+.participants_container {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 2rem;
+}
+.participant_container {
+    display: block;
+    min-height: 10rem;
+    border: 1px solid black;
+    border-radius: 1rem;
+}
+.photo_participant {
+    width: 50%;
+    float: left;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+}
+.participant_text {
+    margin: 2rem;
+}
