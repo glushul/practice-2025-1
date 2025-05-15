@@ -6,7 +6,7 @@
 h3 {
     margin: 0;
 }
-.desc_purpose, .desc_relevance, .desc_result {
+.desc_purpose, .desc_relevance, .desc_result, .title_text {
     padding: 0 0 0 3rem;
     margin: 0;
 }
