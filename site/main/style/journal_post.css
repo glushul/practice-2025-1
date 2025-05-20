@@ -1,0 +1,31 @@
+.post_container {
+    border: 1px solid black;
+    border-radius: 1rem;
+    padding: 2rem;
+}
+.post_images_container {
+    margin: 1rem 0;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 2rem;
+}
+.post_image {
+    width: 100%;
+    display: block;
+    border: 1px solid black;
+    border-radius: 1rem;
+}
+summary {
+    font-size: 2.2rem;
+    outline: none;
+}
+details summary::before {
+  transition: transform 0.3s ease;
+}
+details[open] summary::before {
+  transform: rotate(90deg);
+}
+.date_post {
+    font-size: 1.6rem;
+    margin: 1rem 0 0 0;
+}

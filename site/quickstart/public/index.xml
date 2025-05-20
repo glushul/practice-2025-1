@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Сайт металлообработки</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Сайт металлообработки</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 05 May 2025 13:37:07 +0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ресурсы</title>
+      <link>http://localhost:1313/resources/</link>
+      <pubDate>Mon, 05 May 2025 13:37:07 +0300</pubDate>
+      <guid>http://localhost:1313/resources/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Мамонова Ксения</title>
+      <link>http://localhost:1313/participants/person1/</link>
+      <pubDate>Mon, 05 May 2025 13:36:16 +0300</pubDate>
+      <guid>http://localhost:1313/participants/person1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Участники</title>
+      <link>http://localhost:1313/participants/</link>
+      <pubDate>Mon, 05 May 2025 13:36:06 +0300</pubDate>
+      <guid>http://localhost:1313/participants/</guid>
+      <description>&lt;h2 id=&#34;мамонова-ксения&#34;&gt;Мамонова Ксения&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Участвует в разработке дизайна сайта&lt;/li&gt;&#xA;&lt;li&gt;Отвечает за структуру пользовательского интерфейса и визуальную презентацию проекта&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;глущенко-ульяна&#34;&gt;Глущенко Ульяна&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Участвует в разработке дизайна сайта&lt;/li&gt;&#xA;&lt;li&gt;Участвует в планировании функционала бекэнда и логики платформы&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>О проекте</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 05 May 2025 13:35:45 +0300</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;h2 id=&#34;цель&#34;&gt;Цель&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Разработка дизайна сайта&lt;/li&gt;&#xA;&lt;li&gt;Разработка бекэнда сайта&lt;/li&gt;&#xA;&lt;li&gt;Анализ производственного оборудования и технологий по металлообработке&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;актуальность&#34;&gt;Актуальность&lt;/h2&gt;&#xA;&lt;p&gt;В России существует стабильный спрос на услуги металлообработки. Однако недостаточно удобных цифровых платформ, которые соединяют производителей и заказчиков. Наш проект направлен на создание такой платформы, чтобы улучшить взаимодействие, упростить поиск партнёров и повысить эффективность бизнеса.&lt;/p&gt;&#xA;&lt;h2 id=&#34;результат&#34;&gt;Результат&lt;/h2&gt;&#xA;&lt;p&gt;Создание онлайн-платформы, где:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Заказчики могут размещать запросы на услуги&lt;/li&gt;&#xA;&lt;li&gt;Производители предлагают услуги с указанием цен и сроков&lt;/li&gt;&#xA;&lt;li&gt;Есть возможность обратной связи и рейтингов&lt;/li&gt;&#xA;&lt;li&gt;Реализована система монетизации: комиссия с продаж, платные подписки, реклама, премиум-услуги&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>
